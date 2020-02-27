@@ -36,15 +36,15 @@ from selenium.webdriver.common.keys import Keys
 writer = csv.writer(open('output.csv', 'w+', encoding='utf-8-sig', newline=''))
 writer.writerow(['Name', 'Position', 'Location'])
 
-driver = webdriver.Chrome('C://Users//usuario//Downloads//chromedriver')
+driver = webdriver.Chrome('D://chromedriver')       # Replace with the location of your Chromedriver.
 driver.get('https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin')
 
 username = driver.find_element_by_name("session_key")
-username.send_keys('userfortest0123456789@gmail.com')
+username.send_keys('')                              # Here you must put your Google account associated with LinkedIn
 sleep(0.5)
 
 password = driver.find_element_by_name('session_password')
-password.send_keys('eureka!!')
+password.send_keys('')                              # Here you must put your password of your LinkedIn count
 sleep(0.5)
 
 

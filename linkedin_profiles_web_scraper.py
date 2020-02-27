@@ -44,7 +44,7 @@ username.send_keys('')                              # Here you must put your Goo
 sleep(0.5)
 
 password = driver.find_element_by_name('session_password')
-password.send_keys('')                              # Here you must put your password of your LinkedIn count
+password.send_keys('')                              # Here you must put your password of your LinkedIn account
 sleep(0.5)
 
 

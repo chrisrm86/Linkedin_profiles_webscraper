@@ -3,10 +3,10 @@
 """
 ##########################################################
 
-Name: 		LinkedIn profiles web scraper
+Name:       LinkedIn profiles web scraper
 Created by: Christian Morán
-e-mail: 	christianrmoran86@gmail.com
-More code: 	http://github.com/chrisrm86
+e-mail:     christianrmoran86@gmail.com
+More code:  http://github.com/chrisrm86
 
 ##########################################################
 """

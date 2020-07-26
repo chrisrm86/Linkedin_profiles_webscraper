@@ -13,7 +13,3 @@ A scraper that takes data from linkedin profiles and stores it in a csv file. De
 ```bash
 pip install -r requirements.txt
 ```
-
-```bash
-pip install foobar
-```
